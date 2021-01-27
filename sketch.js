@@ -1,7 +1,7 @@
 var balloon;
 
 function preload(){
-background = loadImage("Hot Air Ballon-01.png");
+background = loadImage("pro-C35 images/Hot Air Ballon-01.png");
 }
 
 function setup() {
@@ -13,7 +13,7 @@ function setup() {
 }
 
 function draw() {
-  background("Hot Air Ballon-01.png");  
+  background = ("pro-C35 images/Hot Air Ballon-01.png");  
   drawSprites();
 }
 if(keyDown(LEFT_ARROW)){
