@@ -1,4 +1,5 @@
 var balloon;
+var database;
 
 function preload(){
 background = loadImage("pro-C35 images/Hot Air Ballon-01.png");
@@ -10,6 +11,7 @@ function setup() {
 
   balloon = createSprite(200,200,30,30);
   balloon.addAnimation();
+  database = firebase.database();
 }
 
 function draw() {
